@@ -1,8 +1,8 @@
-- 👋 Hi, I’m @dttrujillo00
-- 👀 I’m interested in become a web developer
-- 🌱 I’m currently learning about web technology
-- 💞️ I’m looking to collaborate on any proyect relates with the web development
-- 📫 How to reach me ... dttrujillo00@gmail.com
+- 👋 Hi, I’m Daniel Tamayo
+- 👀 I’m interested in become a prefessional web developer.
+- 🌱 I’m currently learning about HTML, CSS, JavaScript, ReactJS and SASS, also I have basic knowledge about NodeJS and MySQL
+- 💞️ I am looking for interesting projects that allow me to increase my experience.
+- 📫 How to reach me ... dttrujillo00@gmail.com or <b>+53 55511226</b>
 
 <!---
 dttrujillo00/dttrujillo00 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
