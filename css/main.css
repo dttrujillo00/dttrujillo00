@@ -1,0 +1,180 @@
+/* Google Fonts */
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+:root{
+    --main_color: #171133;
+    --secondary_color: #581e44;
+    /* 
+    .color3 { #c5485a };
+    .color4 { #d4be99 };
+    .color5 { #e0ffcc }; */
+}
+
+/* General */
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    scrollbar-base-color: var(--main_color);
+    scrollbar-color: var(--main_color);
+    /* scroll-padding-top: 5rem; */
+    list-style: none;
+    text-decoration: none;
+}
+
+*::selection{
+    background-color: var(--secondary_color);
+}
+
+::-webkit-scrollbar {
+    width: .5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-track{
+    background-color: var(--main_color);
+}
+
+img{
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.btn{
+    padding: .2rem .6rem;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    /* transition: all .3s ease; */
+}
+
+.btn:hover{
+    background-color: var(--secondary_color);
+    border: 1px solid var(--secondary_color);
+}
+
+/* Animaciones */
+@keyframes flash {
+    0%{
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+    }
+
+    10%{
+        background-color: var(--secondary_color);
+        border: 1px solid var(--secondary_color);
+    }
+
+    30%{
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+    }
+
+    50%{
+        background-color: var(--secondary_color);
+        border: 1px solid var(--secondary_color);
+    }
+
+    70%{
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+    }
+
+    80%{
+        background-color: var(--secondary_color);
+        border: 1px solid var(--secondary_color);
+    }
+
+
+    100%{
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+    }
+}
+
+.flash{
+    animation-name: flash;
+    animation-duration: 1.5s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+}
+
+/* Banner */
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main_color);
+    color: white;
+    height: 60vh;
+}
+
+.banner_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 1s ease .5s;
+    opacity: 0;
+    transform: translateY(3rem);
+}
+
+.banner_content.show{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.banner p{
+    margin: .5rem;
+}
+
+/* Projects */
+.projects{
+    background-color: #1d1150;
+    color: white;
+    padding: 3rem 0;
+}
+
+.projects h3{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.project{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.project .image_project{
+    width: 70%;
+    display: flex;
+}
+
+.project .description_project{
+    text-align: center;
+    margin: 1.5rem 0;
+}
