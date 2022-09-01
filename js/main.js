@@ -1,8 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const bannerContent = document.querySelector('.banner_content');
-    const bannerBtn = document.querySelector('.banner .btn');
-    
-    bannerContent.classList.add('show');
-    bannerBtn.classList.add('flash');
+   // Scroll Reveal
+    const sr = ScrollReveal({
+        origin: 'top',
+        distance: '40px',
+        duration: 1000,
+        reset: true
+    });
+
+    sr.reveal('.projects, .project, .skills, .skill_card')
 
 })
