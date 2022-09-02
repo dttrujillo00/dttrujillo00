@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
         origin: 'top',
         distance: '40px',
         duration: 1000,
-        reset: true
+        reset: false
     });
 
     sr.reveal('.projects, .project, .skills, .skill_card')
