@@ -50,9 +50,13 @@
     background-color: var(--main_color);
 }
 
+html.sr .load-hidden {
+    visibility: hidden;
+}
+
 body{
     background-color: var(--main_color);
-    width: 100vw;
+    max-width: 100vw;
 }
 
 img{
@@ -188,6 +192,11 @@ img{
 .banner_content p{
     margin: .5rem 0 1rem;
     letter-spacing: 0.1rem;
+}
+
+#whatsapp_logo{
+    /* background-color: red;
+    color: blue; */
 }
 
 /* Projects */
