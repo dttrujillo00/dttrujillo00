@@ -194,9 +194,18 @@ img{
     letter-spacing: 0.1rem;
 }
 
-#whatsapp_logo{
-    /* background-color: red;
-    color: blue; */
+.banner nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner nav a{
+    margin: 0 .5rem;
+}
+
+.banner nav a img {
+    width: 30px;
 }
 
 /* Projects */
