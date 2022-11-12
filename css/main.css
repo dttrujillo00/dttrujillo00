@@ -205,7 +205,7 @@ img{
 }
 
 .banner nav a img {
-    width: 30px;
+    width: 25px;
 }
 
 /* Projects */
@@ -337,5 +337,11 @@ footer{
         95%, 100%{
             transform: translateX(calc(300px - 5px));
         }
+    }
+}
+
+@media (min-width: 1024px){
+    .banner nav a img {
+        width: 30px;
     }
 }
