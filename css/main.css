@@ -277,6 +277,7 @@ h3{
     align-items: center;
     justify-content: flex-start;
     margin-bottom: .5rem;
+    object-fit: fill;
 }
 
 .skill_card .skill_card_head img{
@@ -349,5 +350,9 @@ footer{
 @media (min-width: 1024px){
     .banner nav a img {
         width: 30px;
+    }
+
+    .skills .skill_card{
+        flex: 0 0 calc(50% - 4rem);
     }
 }
