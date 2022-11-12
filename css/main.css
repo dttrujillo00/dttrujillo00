@@ -240,8 +240,14 @@ h3{
 }
 
 .project .description_project{
+    width: 70%;
     text-align: center;
-    margin: 1.5rem 0;
+    margin: 1.5rem auto;
+}
+
+.project .description_project a{
+    color: white;
+    text-decoration: underline;
 }
 
 /* Skills */
