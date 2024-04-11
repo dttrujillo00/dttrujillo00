@@ -7,6 +7,7 @@
 :root{
     --main_color: #171133;
     --secondary_color: #581e44;
+    --card_color: rgba(88, 30, 68, 0.3);
     /* 
     .color3 { #c5485a };
     .color4 { #d4be99 };
@@ -241,8 +242,22 @@ h3{
 
 .project .description_project{
     width: 70%;
-    text-align: center;
     margin: 1.5rem auto;
+}
+
+.project .description_project h2 {
+    text-align: center;
+}
+
+.project .description_project p {
+    margin-bottom: 1rem;
+}
+
+.project .description_project p span {
+    background-color: var(--main_color);
+    border-radius: 5px;
+    padding: 0 .5rem;
+    /* margin: 0 .5rem; */
 }
 
 .project .description_project a{
@@ -266,7 +281,7 @@ h3{
 }
 
 .skills .skill_card{
-    background-color: rgba(88, 30, 68, 0.3);
+    background-color: var(--card_color);
     margin: 2rem;
     padding: 1rem;
     border-radius: 10px;
